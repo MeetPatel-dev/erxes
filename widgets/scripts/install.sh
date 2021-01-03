@@ -5,7 +5,7 @@ git clone https://github.com/erxes/erxes-widgets.git
 cd erxes-widgets
 git checkout develop
 yarn install
-
+echo 'create '.env.sample' from file :'
 echo 'Create `.env.sample` from default settings file and configure it on your own:'
 cp .env.sample .env
 
